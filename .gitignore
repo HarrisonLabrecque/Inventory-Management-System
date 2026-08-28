@@ -1,0 +1,126 @@
+# ==========================================
+
+# Inventory Management System - .gitignore
+
+# ==========================================
+
+# ------------------------------------------
+
+# Compiled C++ executables
+
+# ------------------------------------------
+
+*.exe
+*.out
+*.app
+
+# ------------------------------------------
+
+# Object files
+
+# ------------------------------------------
+
+*.o
+*.obj
+
+# ------------------------------------------
+
+# Debugging / build files
+
+# ------------------------------------------
+
+*.d
+*.gch
+*.pch
+build/
+bin/
+obj/
+
+# ------------------------------------------
+
+# Visual Studio Code
+
+# ------------------------------------------
+
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# ------------------------------------------
+
+# CMake
+
+# ------------------------------------------
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_install/
+
+# ------------------------------------------
+
+# Temporary files
+
+# ------------------------------------------
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+
+# OS-generated files
+
+# ------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+
+# IDE / editor files
+
+# ------------------------------------------
+
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ------------------------------------------
+
+# Program-generated data
+
+# ------------------------------------------
+
+# Uncomment these if your program creates
+
+# temporary/runtime data files that should
+
+# NOT be uploaded to GitHub.
+
+#
+
+# data/*.tmp
+
+# data/*.log
+
+# ------------------------------------------
+
+# Environment / configuration files
+
+# ------------------------------------------
+
+.env
+.env.*
+!.env.example
